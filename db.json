@@ -8,26 +8,20 @@
       "balance": 9998
     },
     {
-      "name": "customer 2",
-      "uid": "7678668",
-      "balance": 999,
-      "id": 2
-    },
-    {
       "name": "customer 3",
-      "uid": "7678669",
+      "telegram_id": 868678,
       "balance": 999,
       "id": 3
     },
     {
       "name": "customer 4",
-      "uid": "7678670",
+      "telegram_id": 868678,
       "balance": 999,
       "id": 4
     },
     {
       "name": "customer 5",
-      "uid": "7675670",
+      "telegram_id": 868678,
       "balance": 999,
       "id": 5
     }

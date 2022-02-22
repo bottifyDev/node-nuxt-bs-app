@@ -24,8 +24,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    // SCSS file in the project
-    '@/assets/scss/custom.scss'
+     '@/assets/scss/custom.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -36,7 +35,8 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["vue-notion/nuxt"],
+  buildModules: [
+  ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -47,12 +47,13 @@ export default {
   ],
 
   // boostrap custom
-  bootstrapVue: {
-    config: {},
-    icons: true,
-    bootstrapCSS: false,
-    bootstrapVueCSS: false
-  },
+    bootstrapVue: {
+        //config: {},
+        icons: true,
+        //bootstrapCSS: false,
+        //bootstrapVueCSS: false
+    },
+
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

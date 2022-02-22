@@ -22,7 +22,7 @@ export default {
   data() {
     return {
       loading: false,
-      fields: ['id', 'uid', 'name', 'balance', 'banned', 'balance'],
+      fields: ['id', 'telegram_id', 'name', 'balance', 'banned', 'balance'],
       pageTitle: 'customers page'
     }
   }
