@@ -1,20 +1,43 @@
 <template>
-<div>
-  <li v-for="user in users" :key=user.id> {{user.name}} </li>
-</div>
+
+<section>
+
+jkhkjhjkhjkjk
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+
+pp
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+index jklj kjlk jl kjl kj lkj l
+
+</section>
 </template>
 
 <script>
 export default {
   name: 'IndexPage',
-  data: () => ({
-    users: [{'id': 1, 'name': 'ben'}, {'id': 2, 'name': 'bot'}]
-  }),
-  methods: {
-    goTo(user) {
-      this.$router.push('/users' + user)
+  data() {
+    return {
+      pageTitle: 'index page'
     }
   }
-
 }
 </script>
+

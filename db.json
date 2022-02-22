@@ -1,0 +1,97 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "telegram_id": 868678,
+      "role": "admin",
+      "name": "Ben Smith",
+      "balance": 9998
+    },
+    {
+      "name": "customer 2",
+      "uid": "7678668",
+      "balance": 999,
+      "id": 2
+    },
+    {
+      "name": "customer 3",
+      "uid": "7678669",
+      "balance": 999,
+      "id": 3
+    },
+    {
+      "name": "customer 4",
+      "uid": "7678670",
+      "balance": 999,
+      "id": 4
+    },
+    {
+      "name": "customer 5",
+      "uid": "7675670",
+      "balance": 999,
+      "id": 5
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Оффер 1",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm"
+    },
+    {
+      "title": "Оффер 2",
+      "id": 2,
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm"
+    },
+    {
+      "title": "Оффер 3",
+      "id": 3,
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm"
+    },
+    {
+      "title": "Оффер 4",
+      "id": 4,
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm"
+    },
+    {
+      "title": "Оффер 5",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 5
+    },
+    {
+      "title": "Оффер 6",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 6
+    },
+    {
+      "title": "Оффер 7",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 7
+    },
+    {
+      "title": "Оффер 8",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 8
+    },
+    {
+      "title": "Оффер 9",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 9
+    },
+    {
+      "title": "Оффер 10",
+      "cta": "vkcredits",
+      "url": "http://lnk.do/ka9DCm",
+      "id": 10
+    }
+  ]
+}
