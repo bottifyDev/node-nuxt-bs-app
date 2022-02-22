@@ -1,4 +1,4 @@
-# nuxt-site
+# nuxt-crud-panel
 
 ## Build Setup
 
