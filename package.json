@@ -22,7 +22,6 @@
   },
   "devDependencies": {
     "sass": "^1.49.8",
-    "sass-loader": "^10.2.1",
-    "vue-notion": "^1.4.0"
+    "sass-loader": "^10.2.1"
   }
 }

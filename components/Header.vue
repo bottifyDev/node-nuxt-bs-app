@@ -5,7 +5,7 @@
     variant="info"
     fixed="top" sticky>
   <b-container fluid>
-  <b-navbar-brand to="/">BOT PANEL</b-navbar-brand>
+  <b-navbar-brand to="/">{{ $config.appNAME }} {{ $config.qiwiTOKEN }}</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse">
       <b-icon icon="text-left"></b-icon>

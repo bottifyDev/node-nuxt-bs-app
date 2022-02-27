@@ -1,4 +1,13 @@
 export default {
+
+  publicRuntimeConfig: {
+    baseURL: 'https://bot-panel.ru',
+    appNAME: 'BOT_PANEL'
+  },
+  privateRuntimeConfig: {
+    qiwiTOKEN: process.env.QIWI_TOKEN
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -35,8 +44,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-  ],
+  buildModules: [],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -47,14 +55,12 @@ export default {
   ],
 
   // boostrap custom
-    bootstrapVue: {
-        //config: {},
-        icons: true,
-        //bootstrapCSS: false,
-        //bootstrapVueCSS: false
-    },
-
-
+  bootstrapVue: {
+      //config: {},
+      icons: true,
+      //bootstrapCSS: false,
+      //bootstrapVueCSS: false
+  },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
