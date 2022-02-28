@@ -1,7 +1,12 @@
 <template>
 <b-container class="mt-3" fluid>
   <h1>{{ pageTitle }}</h1>
-  <b-table striped hover small responsive="lg" :items="customers" :fields="fields"></b-table>
+  <ul>
+    <li v-for="customer of customers" :key="customer">
+      <a href="#" @click.prevent="goTo(customer.id)">{{ customer.name }}</a>
+    </li>
+  </ul>
+
 </b-container>
 </template>
 
@@ -25,6 +30,11 @@ export default {
       fields: ['id', 'telegram_id', 'name', 'balance', 'banned', 'balance'],
       pageTitle: 'customers page'
     }
+  },
+  methods: {
+   goTo(customer) {
+     this.$router.push('/customers/' + customer)
+   }
   }
 }
 </script>

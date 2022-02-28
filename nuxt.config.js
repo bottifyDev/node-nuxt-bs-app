@@ -44,7 +44,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ['@nuxt/typescript-build'],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -66,6 +66,7 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: 'http://192.168.1.3:5000',
   },
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

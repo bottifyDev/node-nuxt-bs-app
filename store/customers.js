@@ -10,7 +10,7 @@ export const actions = {
   },
 
   async fetchCustomerById({}, customerId) {
-    return await this.$axios.$get('customers/${customerId}')
+    return await this.$axios.$get(`customers/${customerId}`)
   }
 }
 

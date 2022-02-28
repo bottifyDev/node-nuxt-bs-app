@@ -1,8 +1,6 @@
 <template>
 
 <section>
-{{ $config.baseURL }}
-{{ $config.qiwiSecret }}
 <hr>
 jkhkjhjkhjkjk
 index jklj kjlk jl kjl kj lkj l
@@ -32,7 +30,7 @@ index jklj kjlk jl kjl kj lkj l
 </section>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'IndexPage',
   data() {
