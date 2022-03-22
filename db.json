@@ -1,38 +1,17 @@
 {
   "customers": [
     {
-      "id": 1,
-      "telegram_id": 868678,
-      "role": "admin",
-      "name": "Ben Smith",
-      "balance": 9998
+      "name": "customer didj",
+      "uid": "7675670",
+      "id": 2
     },
     {
-      "name": "customer 3",
-      "telegram_id": 868678,
-      "balance": 999,
+      "name": "customer disj",
+      "uid": "76756570",
       "id": 3
-    },
-    {
-      "name": "customer 4",
-      "telegram_id": 868678,
-      "balance": 999,
-      "id": 4
-    },
-    {
-      "name": "customer 5",
-      "telegram_id": 868678,
-      "balance": 999,
-      "id": 5
     }
   ],
   "offers": [
-    {
-      "id": 1,
-      "title": "Оффер 1",
-      "cta": "vkcredits",
-      "url": "http://lnk.do/ka9DCm"
-    },
     {
       "title": "Оффер 2",
       "id": 2,
@@ -42,12 +21,6 @@
     {
       "title": "Оффер 3",
       "id": 3,
-      "cta": "vkcredits",
-      "url": "http://lnk.do/ka9DCm"
-    },
-    {
-      "title": "Оффер 4",
-      "id": 4,
       "cta": "vkcredits",
       "url": "http://lnk.do/ka9DCm"
     },
