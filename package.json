@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "api": "json-server --watch db.json -p 5000 -H 0.0.0.0",
-    "dev": "nuxt -H 0.0.0.0 -p 8000",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider; nuxt -H 0.0.0.0 -p 8000",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
