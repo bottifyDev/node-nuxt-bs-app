@@ -24,6 +24,7 @@
 <script>
 export default {
   name: 'OffersPage',
+  middleware: ['auth'],
   async asyncData({store, error}) {
     try {
       const offers = await store.dispatch('offers/fetchOffers')

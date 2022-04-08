@@ -22,9 +22,10 @@ index jklj kjlk jl kjl kj lkj l
 </section>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'IndexPage',
+  middleware: ['auth'],
   data() {
     return {
       pageTitle: 'index page'
