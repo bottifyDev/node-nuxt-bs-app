@@ -1,6 +1,6 @@
 <template>
 <div><h1>{{ customer.name }}</h1>
-<b-button @click.prevent="deleteCustomer(customer.id)">delete</b-button>
+<b-button @click.prevent="deleteCustomer(customer._id)">delete</b-button>
 </div>
 </template>
 

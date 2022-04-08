@@ -1,23 +1,39 @@
+// State // 
 export const state = () => ({
     customers: []
 })
 
-export const actions = {
-  async fetchCustomers() {
-    try {
-      const customers = await this.$axios.$get('/customers')
-      return customers
-    } catch (e) {
-      throw e
+// Mutations
+export const mutations = {
+    setCustomers(state, customers) {
+        state.customers = customers
     }
-  },
-  async fetchCustomerById({},customerId) {
-    return await this.$axios.$get(`customers/${customerId}`)
-  },
-  async deleteCustomer({}, customerId) {
-    return await this.$axios.$delete(`customers/${customerId}`)
-  }
 }
+
+// Actions
+export const actions = {
+    async fetchCustomers({commit}) {
+      try {
+        const customers = await this.$axios.$get('/customers')
+        commit('setCustomers', customers)
+      } catch (e) {
+        throw e
+      }
+    },
+    
+    async fetchCustomerById({},customerId) {
+      return await this.$axios.$get(`/customers/${customerId}`)
+    },
+    async deleteCustomer({}, customerId) {
+      return await this.$axios.$delete(`/customers/${customerId}`)
+    }
+}
+
+// Getters 
+export const getters = {
+    customers: state => state.customers
+}
+
 
 
 
